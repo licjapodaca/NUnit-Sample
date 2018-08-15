@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNinja", "TestNinja\Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNinjaCore", "TestNinjaCore\TestNinjaCore.csproj", "{4082FFD3-1BB9-488E-95A2-81CC20A58A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNinja.NUnit.UnitTests", "TestNinja.NUnit.UnitTests\TestNinja.NUnit.UnitTests.csproj", "{8D2DBE77-76CB-4294-A62B-9932156B9B67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNinja.NUnit.UnitTests", "TestNinja.NUnit.UnitTests\TestNinja.NUnit.UnitTests.csproj", "{8D2DBE77-76CB-4294-A62B-9932156B9B67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source Code", "Source Code", "{6DFA85DB-2F7F-46C1-9D2F-884A3A38A9E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{EA464C96-631A-48AB-867F-58B6C4321FD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7328740E-4B78-464F-8352-65D887F2145F} = {6DFA85DB-2F7F-46C1-9D2F-884A3A38A9E7}
+		{4082FFD3-1BB9-488E-95A2-81CC20A58A61} = {6DFA85DB-2F7F-46C1-9D2F-884A3A38A9E7}
+		{8D2DBE77-76CB-4294-A62B-9932156B9B67} = {EA464C96-631A-48AB-867F-58B6C4321FD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3E7A7A3-12D1-4E27-AF11-814DC4314158}
